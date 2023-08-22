@@ -1,0 +1,23 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "This application called Note Taker can be used to write and save notes. The app uses an Express.js back end and will save and retrieve user generated note data from a JSON file.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "node --watch server.js"
+  },
+  "author": "Cheik H BAGAGNAN",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bchamidou/Note_Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bchamidou/Note_Taker/issues"
+  },
+  "homepage": "https://github.com/bchamidou/Note_Taker#readme"
+}
