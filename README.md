@@ -25,7 +25,7 @@ This application called Note Taker can be used to write and save notes. The app 
 The installation can be completed by following these instructions:
 
 1. Clone the GitHub repository to you local computer. Click on the following link.
-* Repository link : https://github.com/bchamidou/OOP_SVG_LOGO_MAKER 
+* Repository link : https://github.com/bchamidou/Note_Taker 
 2. To install a Node JS project, install [Node JS](https://nodejs.org/) use [Js Express](https://www.npmjs.com/package/express) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4)
    
 ## Usage 
