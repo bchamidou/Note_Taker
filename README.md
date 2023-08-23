@@ -2,6 +2,8 @@
 # Project: Note Taker
  ![License Badge](https://img.shields.io/badge/License-MIT%20License-blue)
 
+ https://github.com/bchamidou/Note_Taker
+
 ## Description
 ***
 
@@ -22,18 +24,22 @@ This application called Note Taker can be used to write and save notes. The app 
 
 The installation can be completed by following these instructions:
 
-        Clone the GitHub repository to you local computer. Click on the following link.
-        * Repository link : https://github.com/bchamidou/https://github.com/bchamidou/Note_Taker  
-
+1. Clone the GitHub repository to you local computer. Click on the following link.
+* Repository link : https://github.com/bchamidou/OOP_SVG_LOGO_MAKER 
+2. To install a Node JS project, install [Node JS](https://nodejs.org/) use [Js Express](https://www.npmjs.com/package/express) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4)
+   
 ## Usage 
 ***
+To execute the script, open a Git terminal on the main project folder (cloned folder) Run the following command: node server.js.
 
-  
+![Alt text](public/assets/img/Start_page.png)
+![Alt text](public/assets/img/Add_new-note.png)
+![Alt text](public/assets/img/Note_page.png)
 
 ## Contributing
 ***
 
-I  utilized several coding website for help, including STackOverflow, w#schools.com, …. I also watched YouTube video tutorials and the course resources.
+I  utilized several coding website for help, including STackOverflow, w#schools.com, and more. I also watched YouTube video tutorials and the course resources.
 
 Any developers who are interested in contributing ideas for this application must agree to follow and comply with the Contributor Covetnant: Code of Conduct.
 The Contributor Covenant Code of Conduct can be found in the following address:
@@ -43,18 +49,7 @@ The Contributor Covenant Code of Conduct can be found in the following address:
 
 ## Technologies
 ***
-Node.js
-
-NPM
-
-Express.js
-
-Inquirer.js
-
-Bootstrap
-
-Google Fonts
-
+Node.js, NPM, Express.js,Inquirer.js,Bootstrap,Google Fonts
 
 ## Contact
 ***
