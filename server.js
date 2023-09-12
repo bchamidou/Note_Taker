@@ -1,9 +1,12 @@
 // Dependencies
+const express = require('express');
+
 const fs = require('fs');
 const path = require('path');
+const { v4: uuidv4 } = require('uuid');
+
 
 // Create an express server
-const express = require('express');
 const app = express();
 
 const allNotes = require('./db/db.json');
@@ -35,6 +38,8 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
+// const newNote = { title, text, id: uuidv4() }
+
 // Create Note function 
 function createNewNote(body, notesArray) {
     const newNote = body;
@@ -43,10 +48,8 @@ function createNewNote(body, notesArray) {
     
     if (notesArray.length === 0)
         notesArray.push(0);
-
-    body.id = notesArray[0];
+    body.id = uuidv4();
     notesArray[0]++;
-
     notesArray.push(newNote);
     fs.writeFileSync(
         path.join(__dirname, './db/db.json'),
